@@ -1,0 +1,30 @@
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.profile{
+    size: 20px 20px 20px 20px;
+}
+
+.ps {
+    font-size: 1.3rem;
+}
+
+abbr {
+    font-style: italic;
+    font-weight: 100;
+}

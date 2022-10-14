@@ -1,8 +1,306 @@
+<!DOCTYPE html>
 <html>
     <head>
-
+        <base href="media/">
+        <title>mywebsite</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>"abdul azees"</h1>
+        <header>
+            <h1>LOGO</h1>
+            <nav>
+                <select name="" id="select1">
+                    <option value="00">Select Value</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                </select>
+            </nav>
+        </header>
+        
+        <section>
+            <h2>Heading 01</h2>
+            <h2>Heading 02</h2>
+            <h2>Heading 03</h2>
+            <h2>Heading 04</h2>
+            <h2>Heading 05</h2>
+            <h2>Heading 06</h2>
+        </section>
+        <p>The Blockquote:</p>
+        <blockquote>This is a blockquote line.</blockquote>
+        <!--Long Quotation-->
+        <div>
+            <dl>
+                <dt>Definition Term 01:</dt>
+                <dd>Definition Data 01</dd>
+            </dl>
+            <dl>
+                <dt>Definition Term 02:</dt>
+                <dd>Definition Data 02</dd>
+            </dl>
+        </div>
+
+        <figure>
+            <img src="images/user2.jpg" alt="image2">
+            <figcaption>Image 02</figcaption>
+        </figure>
+
+        <hr>
+        hr tag
+        <hr>
+
+        <h4>Un-ordered List</h4>
+        <ul>
+            <li>Item 01</li>
+            <li>Item 02</li>
+            <li>Item 03</li>
+        </ul>
+
+        <h4>Ordered List</h4>
+        <ol>
+            <li>Item 01</li>
+            <li>Item 02</li>
+            <li>Item 03</li>
+        </ol>
+
+        <h4>Menu</h4>
+        <menu>
+            <li>Item 01</li>
+            <li>Item 02</li>
+            <li>Item 03</li>
+        </menu>
+
+        <pre>This is a pre tag    text.</pre>
+
+        <p>Click here to <a href="http:/google.com">Google</a></p>
+
+        <p><abbr title="World Wide Web">WWW</abbr> stands for World Wide Web</p>
+
+        <b>Bold Letters</b>
+        
+        <p><abbr title="Bi-Directional Override">bdo : </abbr> stands for Bi-Directional Override :  <bdo dir="rtl"> Example: السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ</bdo></p>
+        <p><abbr title="Bi-Directional Isolation">bdi : </abbr> stands for Bi-Directional Isolation :  <bdi>السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ Example: </bdi></p><br><br>
+        
+        <audio src="media/audio.mp3" controls>Audio</audio><br>
+        <video src="media/video.mov" controls></video>
+        <img src="images/user2.jpg" alt="image1">
+
+        <h2>This text is <del>deleted</del></h2>
+        <h2><ins>ins</ins> element represents a range of text that has been added to a document.</h2>
+        
+        <p><cite>The Village by the Sea </cite> by the Indian writer Anita Desai, published in London by Heinemann in 1982.</p>
+
+        <p>The CSS <code>background-color</code> property defines the background color of an element.</p>   <!--Define a piece of Computer Code-->
+
+        <ul>
+            <li><data value="01">One</data></li>
+            <li><data value="02">Two</data></li>
+            <li><data value="03">Three</data></li>
+        </ul> 
+
+        <p><cite>The Village by the Sea </cite> by the Indian writer Anita Desai, published in London by Heinemann in 1982.
+            This story is <em>based entirely</em> on fact. 
+            Thul is a real village on the western coast of India and all the 
+            character in this book are based on people who live in this village;
+            only their names have been altered.</p> <!--Title of the work-->
+                
+        <p> <dfn>CSS</dfn> describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+
+        <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+        <p>Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste text.</p>    <!--Keyboard Input-->
+
+        <p> <mark>Mark</mark> tag is used to highlight the text in a paragraph</p>
+            
+        <p> UN Peacekeepers' goal is to:
+            <q>protect the civilians, actively prevent conflict.</q></p>    <!--Short Quotation-->
+
+        <ruby>
+            க <rp>(</rp><rt>ka</rt><rp>)</rp>
+            கா <rp>(</rp><rt>kaa</rt><rp>)</rp>
+            கி <rp>(</rp><rt>ki</rt><rp>)</rp>
+            கீ <rp>(</rp><rt>kii</rt><rp>)</rp>
+        </ruby>    <!-- provide fall-back parentheses for browsers-->
+
+        <p>s tag <s>renders text with a strikethrough.</s></p>
+
+        <p>Message from my computer: <br>
+        <samp>File not found.<br>Press F1 to continue</samp></p> <!--Used to define a sample output from a computer program-->
+
+        <p>This is a normal text.<small>This is some smaller text.</small></p> <!--Small text; side comment-->
+
+        <p>I have a <span style="color: red;">Red</span> car.</p> <!--an inline container used to mark up a part of a text, or a part of a document.-->
+
+        <p>This is a <strong>Important text.</strong></p> 
+
+        <p>( <var>a</var>  + <var>b</var> )<sup>2</sup> = <var>a</var> <sup>2</sup> + 2 <var>a</var>*<var>b</var> + <var>b</var> <sup>2</sup></p> <!--Superscript-->
+        <p>H<sub>2</sub>O, which is chemical symbol of Water. </p>
+ 
+        <p>The genaral meeting would start at <time>09.00</time>.</p> <!--Represents a specific time-->
+
+        <p>u tag is used to <u>underline the text.</u></p>
+
+        <p>Area of a rectangle is <var>a</var>*<var>b</var></p>
+
+        <p><abbr title="Word Break Opportunity">wbr</abbr> tag specifies where to break the line.</p>
+
+        <svg width="100" height="100">
+            <circle cx="25" cy="25" r="40" stroke="green" stroke-width="2" fill="cyan" />
+        </svg> <!--Cantainer for svg graphics-->
+        <br>
+        <figure>
+            <img src="images/user2.jpg" usemap="#workmap" alt="image 4" >
+            <map name="workmap">
+                <area shape="circle" coords="358,278,145" href="https://www.google.com/search?sxsrf=ALiCzsZzywDzbWFymYPNsJszvl8_DsxGGw:1665751717030&q=beauty+of+Sri+Lanka&spell=1&sa=X&ved=2ahUKEwiukoLb4N_6AhWTQuUKHWkeAwcQBSgAegQICBAB&biw=1536&bih=703&dpr=1.25" alt="image5">
+            </map>
+            <figcaption>Click on the Eye Ball to witness the beauty of Sri Lanka.</figcaption>
+        </figure>
+        
+        <embed type="image/jpg" src="images/user2.jpg" width="300" height="200">
+        <br>
+        <iframe src="https://www.google.com" title="Google Searce Engine"></iframe><!--Nested browsing content-->
+        <br>    
+        <object data="images/user2.jpg" width="380" height="300"></object><!--nested-->    
+            <br>
+        <picture>
+            <source media="" srcset="re2.jpeg">
+            <img src="images/user2.jpg" alt="Royal Enfield" style="width:auto;">
+        </picture>
+        <br>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        <br><br><br>
+        <table >
+            <colgroup>
+                <col span="1" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75));">
+                <col span="2" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
+            </colgroup>
+            <caption>Currency Rate</caption>
+            <thead>
+                <tr>
+                <th>Currency</th>
+                <th>Buying Rate</th>
+                <th>Selling Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>US Doller</td>
+                    <td>360lkr</td>
+                    <td>370lkr</td>
+                </tr>
+                <tr>
+                    <td>Australian Doller</td>
+                    <td>224lkr</td>
+                    <td>235lkr</td>
+                </tr>
+                <tr>
+                    <td>Canadian Doller</td>
+                    <td>258lkr</td>
+                    <td>270lkr</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Average Change</td>
+                    <td>10.5lkr</td>
+                    <td>11.8lkr</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br><br>
+        <h2>Form 1</h2>
+        <form action="a.php">
+            <fieldset><!--group related element in a form -->
+                <legend>Personal Information</legend>
+                <label for="username">User Name</label><br>
+                <input type="text" id="username" placeholder="user name"><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="" id="password" placeholder="password"><br><br>
+                <label for="color">Pick the Color</label><br>
+                <input type="color" id="color"><br><br>
+                <label for="color">Pick the Date</label><br>
+                <input type="date" id="date"><br><br>
+                <label for="time">Pick the Time</label><br>
+                <input type="time" id="time"><br><br>
+                <label for="file">Pick the file</label><br>
+                <input type="file" id="file"><br><br>
+                <label for="range">Pick the Range</label><br>
+                <input type="range" id="range"><br><br>
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label><br>  
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br><br>
+                <label for="number">Select a Number:</label><br>
+                <input type="number" name="" id="number" min="1" placeholder="select a number"><br><br>
+                <label for="check">Check it</label><br>
+                <input type="checkbox" name="check" id="checkbox">
+                <label for="l01">List 01</label><br>
+                <input type="checkbox" name="check" id="checkbox">
+                <label for="l02">List 02</label><br><br>
+                
+                <label for="num">Choose your roll number from the list:</label>
+                <input list="nums" name="num" id="num">
+                <datalist id="nums">
+                <option value="1604">
+                <option value="1603">
+                <option value="1605">
+                </datalist><br><br>
+                <button>Submit</button>
+            </fieldset>
+                <br><br>
+        </form>
+
+        <label for="ram">Ram Usage:</label>
+        <meter id="ram" value="6" min="0" max="10">6 out of 10</meter><br>
+
+        <label for="rom">Battery Usage:</label>
+        <meter id="rom" value="0.5">50%</meter>
+        <br><br>
+
+        <label for="colors">Choose a Color:</label>
+        <select  name="colors" id="colors">
+        <optgroup label="Primary Colors">
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+        </optgroup>
+        <optgroup label="Secondary Colors">
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+            <option value="green">Green</option>
+        </optgroup>
+        </select>
+        <br><br>
+        <label for="file">Uploading progress:</label>
+        <progress id="file" value="55" max="100"> 55% </progress>
+        <br><br>
+        <label for="villagebythesea">Review of Village By the Sea:</label>
+        <br><br>
+        <textarea id="villagebythesea" name="villagebythesea" rows="4" cols="50">
+            This story is <em>based entirely</em> on fact. Thul is a real village on the western coast of India and all the character in this book are based on people who live in this village; only their names have been altered.
+        </textarea>
+        <br><br>
+        <details>
+            <summary>The village by the Sea</summary>
+            <p>This story is <em>based entirely</em> on fact. Thul is a real village on the western coast of India and all the character in this book are based on people who live in this village; only their names have been altered.</p>
+        </details>
+
+        <dialog open>This is a dialog window</dialog>
+
+        
+          
+
+
+
+
+        <br><br><br><br><br>
+        <footer style="background-color:yellow; text-align: center; padding: 10px;">
+            Footer
+        </footer>
+
     </body>
 </html>
