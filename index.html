@@ -1,346 +1,484 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <base href="media/">
-        <title>mywebsite</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>LOGO</h1>
-            <nav>
-                <select name="" id="select1">
-                    <option value="00">Select Value</option>
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03">03</option>
-                    <option value="04">04</option>
-                </select>
-            </nav>
-        </header>
-        
-        <section>
-            <h1>Heading 01</h1>
-            <h2>Heading 02</h2>
-            <h3>Heading 03</h3>
-            <h4>Heading 04</h4>
-            <h5>Heading 05</h5>
-            <h6>Heading 06</h6>
-        </section>
-        <p>The Blockquote:</p>
-        <blockquote>This is a blockquote line.</blockquote>
-        <!--Long Quotation-->
-        <div>
-            <dl>
-                <dt>Definition Term 01:</dt>
-                <dd>Definition Data 01</dd>
-            </dl>
-            <dl>
-                <dt>Definition Term 02:</dt>
-                <dd>Definition Data 02</dd>
-            </dl>
-        </div>
+<html lang="en">
+<head>
+  <base href=" " target="blank">
 
-        <figure>
-            <img src="images/user2.jpg" alt="image2">
-            <figcaption>Image 02</figcaption>
-        </figure>
+  <link rel="stylesheet" href="styles.css">
 
-        <hr>
-        hr tag
-        <hr>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <h4>Un-ordered List</h4>
-        <ul>
-            <li>Item 01</li>
-            <li>Item 02</li>
-            <li>Item 03</li>
-        </ul>
+  <style>
+    h1 {color:gray;}
+    p {color:rgb(0, 64, 255);}
+  </style>
+  <style>
+    .myDiv {
+      border: 5px outset rgb(19, 56, 166);
+      background-color: lightblue;
+      text-align: center;
+    }
+  </style>
+  <title>mywebsite1605</title>
+</head>
+<body>
+    <h1>20-NTU-SL-CS-1605</h1>
+    <p>____________________________________________________________________________________________</p>
 
-        <h4>Ordered List</h4>
-        <ol>
-            <li>Item 01</li>
-            <li>Item 02</li>
-            <li>Item 03</li>
-        </ol>
-
-        <h4>Menu</h4>
-        <menu>
-            <li>Item 01</li>
-            <li>Item 02</li>
-            <li>Item 03</li>
-        </menu>
-
-        <pre>This is a pre tag    text.</pre>
-
-        <p>Click here to <a href="http:/google.com">Google</a></p>
-
-        <p><abbr title="World Wide Web">WWW</abbr> stands for World Wide Web</p>
-
-        <b>Bold Letters</b>
-        
-        <p><abbr title="Bi-Directional Override">bdo : </abbr> stands for Bi-Directional Override :  <bdo dir="rtl"> Example: السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ</bdo></p>
-        <p><abbr title="Bi-Directional Isolation">bdi : </abbr> stands for Bi-Directional Isolation :  <bdi>السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ Example: </bdi></p><br><br>
-        
-        <audio src="media/audio.mp3" controls>Audio</audio><br>
-        <video src="media/video.mov" controls></video>
-        <img src="images/user2.jpg" alt="image1">
-
-        <h2>This text is <del>deleted</del></h2>
-        <h2><ins>ins</ins> element represents a range of text that has been added to a document.</h2>
-        
-        <p><cite>The Village by the Sea </cite> by the Indian writer Anita Desai, published in London by Heinemann in 1982.</p>
-
-        <p>The CSS <code>background-color</code> property defines the background color of an element.</p>   <!--Define a piece of Computer Code-->
-
-        <ul>
-            <li><data value="01">One</data></li>
-            <li><data value="02">Two</data></li>
-            <li><data value="03">Three</data></li>
-        </ul> 
-
-        <p><cite>The Village by the Sea </cite> by the Indian writer Anita Desai, published in London by Heinemann in 1982.
-            This story is <em>based entirely</em> on fact. 
-            Thul is a real village on the western coast of India and all the 
-            character in this book are based on people who live in this village;
-            only their names have been altered.</p> <!--Title of the work-->
-                
-        <p> <dfn>CSS</dfn> describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
-
-        <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
-
-        <p>Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste text.</p>    <!--Keyboard Input-->
-
-        <p> <mark>Mark</mark> tag is used to highlight the text in a paragraph</p>
-            
-        <p> UN Peacekeepers' goal is to:
-            <q>protect the civilians, actively prevent conflict.</q></p>    <!--Short Quotation-->
-
-        <ruby>
-            க <rp>(</rp><rt>ka</rt><rp>)</rp>
-            கா <rp>(</rp><rt>kaa</rt><rp>)</rp>
-            கி <rp>(</rp><rt>ki</rt><rp>)</rp>
-            கீ <rp>(</rp><rt>kii</rt><rp>)</rp>
-        </ruby>    <!-- provide fall-back parentheses for browsers-->
-
-        <p>s tag <s>renders text with a strikethrough.</s></p>
-
-        <p>Message from my computer: <br>
-        <samp>File not found.<br>Press F1 to continue</samp></p> <!--Used to define a sample output from a computer program-->
-
-        <p>This is a normal text.<small>This is some smaller text.</small></p> <!--Small text; side comment-->
-
-        <p>I have a <span style="color: red;">Red</span> car.</p> <!--an inline container used to mark up a part of a text, or a part of a document.-->
-
-        <p>This is a <strong>Important text.</strong></p> 
-
-        <p>( <var>a</var>  + <var>b</var> )<sup>2</sup> = <var>a</var> <sup>2</sup> + 2 <var>a</var>*<var>b</var> + <var>b</var> <sup>2</sup></p> <!--Superscript-->
-        <p>H<sub>2</sub>O, which is chemical symbol of Water. </p>
- 
-        <p>The genaral meeting would start at <time>09.00</time>.</p> <!--Represents a specific time-->
-
-        <p>u tag is used to <u>underline the text.</u></p>
-
-        <p>Area of a rectangle is <var>a</var>*<var>b</var></p>
-
-        <p><abbr title="Word Break Opportunity">wbr</abbr> tag specifies where to break the line.</p>
-
-        <svg width="100" height="100">
-            <circle cx="25" cy="25" r="40" stroke="green" stroke-width="2" fill="cyan" />
-        </svg> <!--Cantainer for svg graphics-->
+    <table border="2px" align="center">
+        <tr><th><input type="text" size="15px"></th></tr>
         <br>
-        <figure>
-            <img src="images/user2.jpg" usemap="#workmap" alt="image 4" >
-            <map name="workmap">
-                <area shape="circle" coords="358,278,145" href="https://www.google.com/search?sxsrf=ALiCzsZzywDzbWFymYPNsJszvl8_DsxGGw:1665751717030&q=beauty+of+Sri+Lanka&spell=1&sa=X&ved=2ahUKEwiukoLb4N_6AhWTQuUKHWkeAwcQBSgAegQICBAB&biw=1536&bih=703&dpr=1.25" alt="image5">
-            </map>
-            <figcaption>Click on the Eye Ball to witness the beauty of Sri Lanka.</figcaption>
-        </figure>
+            <tr>
+                <td><input type="button" value="C"></td>
+                <td><input type="button" value="del"></td>
+                <td><input type="button" value="/"></td>
+                <td><input type="button" value="X"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7"></td>
+                <td><input type="button" value="8"></td>
+                <td><input type="button" value="9"></td>
+                <td><input type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td><input type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1"></td>
+                <td><input type="button" value="2"></td>
+                <td><input type="button" value="3"></td>
+                <td rowspan="2"><input type="button" value="="></td>
+            </tr>
         
-        <embed type="image/jpg" src="images/user2.jpg" width="300" height="200">
-        <br>
-        <iframe src="https://www.google.com" title="Google Searce Engine"></iframe><!--Nested browsing content-->
-        <br>    
-        <object data="images/user2.jpg" width="380" height="300"></object><!--nested-->    
-            <br>
-        <picture>
-            <source media="" srcset="re2.jpeg">
-            <img src="images/user2.jpg" alt="Royal Enfield" style="width:auto;">
-        </picture>
-        <br>
-        <audio controls>
-            <source src="audio.mp3" type="audio/mpeg">
-        </audio>
-        <br><br><br>
-        <table >
-            <colgroup>
-                <col span="1" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75));">
-                <col span="2" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
-            </colgroup>
-            <caption>Currency Rate</caption>
-            <thead>
-                <tr>
-                <th>Currency</th>
-                <th>Buying Rate</th>
-                <th>Selling Rate</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>US Doller</td>
-                    <td>360lkr</td>
-                    <td>370lkr</td>
-                </tr>
-                <tr>
-                    <td>Australian Doller</td>
-                    <td>224lkr</td>
-                    <td>235lkr</td>
-                </tr>
-                <tr>
-                    <td>Canadian Doller</td>
-                    <td>258lkr</td>
-                    <td>270lkr</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Average Change</td>
-                    <td>10.5lkr</td>
-                    <td>11.8lkr</td>
-                </tr>
-            </tfoot>
-        </table>
-        <br><br><br>
-        <h2>Form 1</h2>
-        <form action="a.php">
-            <fieldset><!--group related element in a form -->
-                <legend>Personal Information</legend>
-                <label for="username">User Name</label><br>
-                <input type="text" id="username" placeholder="user name"><br><br>
-                <label for="password">Password</label><br>
-                <input type="password" name="" id="password" placeholder="password"><br><br>
-                <label for="color">Pick the Color</label><br>
-                <input type="color" id="color"><br><br>
-                <label for="color">Pick the Date</label><br>
-                <input type="date" id="date"><br><br>
-                <label for="time">Pick the Time</label><br>
-                <input type="time" id="time"><br><br>
-                <label for="file">Pick the file</label><br>
-                <input type="file" id="file"><br><br>
-                <label for="range">Pick the Range</label><br>
-                <input type="range" id="range"><br><br>
-                <label for="gender">Gender</label><br>
-                <input type="radio" name="gender" id="male">
-                <label for="male">Male</label><br>  
-                <input type="radio" name="gender" id="female">
-                <label for="female">Female</label><br><br>
-                <label for="number">Select a Number:</label><br>
-                <input type="number" name="" id="number" min="1" placeholder="select a number"><br><br>
-                <label for="check">Check it</label><br>
-                <input type="checkbox" name="check" id="checkbox">
-                <label for="l01">List 01</label><br>
-                <input type="checkbox" name="check" id="checkbox">
-                <label for="l02">List 02</label><br><br>
-                
-                <label for="num">Choose your roll number from the list:</label>
-                <input list="nums" name="num" id="num">
-                <datalist id="nums">
-                <option value="1604">
-                <option value="1603">
-                <option value="1605">
-                </datalist><br><br>
-                <button>Submit</button>
-            </fieldset>
-                <br><br>
+            <tr>
+                <td><button>0</button></td>
+                <td colspan="2"><button>.</button></td>
+    
+            </tr>
+        
+    </table>
+    <br>
+    <br>
+    <p>_________________________________________________________________________________________________</p>
+    <address>
+    Written by <a href="">abdulazees</a>.<br>
+    For Visiting US:<br>
+    Follow on:<br>
+    abc 12345, NTU Manawala<br>
+    Faisalabad, Pakistan
+</address>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<nav>
+    <a href="/HOME/">HOME</a> |
+    <a href="/CONTACT/">CONTACT</a> |
+    <a href="/COURSES/">COURSES</a> |
+    <a href="/EMAIL/">EMAIL</a>
+</nav>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<section>
+    <h2>Honda</h2>
+    <p>Honda Motor Co., Ltd.
+         is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment,
+          headquartered in Minato, Tokyo, Japan.</p>
+</section> 
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<section>
+    <h2>TOYOTA</h2>
+    <p>Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937.
+         Toyota is one of the largest automobile manufacturers in the world,
+          producing about 10 million vehicles per year.</p>
+</section>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<blockquote cite=" ">
+    For 50 years, WWF has been protecting the future of nature. 
+    The world's leading conservation organization, WWF works in 100 countries and is supported
+     by 1.2 million members
+     in the United States and close to 5 million globally.
+</blockquote>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<dl>
+    <dt>IRON MAN</dt>
+    <dd>Super Hero with armour suit.</dd>
+    <dt>Gray Nicols</dt>
+    <dd>Sports Gadgets nmanufacturing Company.</dd>
+</dl>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<div class="myDiv">
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+</div>
+<p>____________________________________________________________________________________________</p>
+<br>
+<article>
+    <h2>Lorem Ipsum Copy</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</article>
+<aside>
+    <h4>Babay Shark</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</aside>
+<footer>
+    <p>Author: Refrence</p>
+    <p><a href=";emailaddress">mkabdulazees56@gmail.com</a></p>
+</footer>
+<header>
+ <p>Posted by Jawad</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</header>
+<h1>BSSE - 5TH SEMESTER</h1>
+<h2>BSSE - 5TH SEMESTER</h2>
+<h3>BSSE - 5TH SEMESTER</h3>
+<h4>BSSE - 5TH SEMESTER</h4>
+<h5>BSSE - 5TH SEMESTER</h5>
+<h6>BSSE - 5TH SEMESTER</h6>
+<main>
+    <h1>Most Popular Browsers are</h1>
+    <p>Chrome, Bing, and Edge are the most used browsers today.</p>
+  
+    <article>
+      <h2>Google Chrome</h2>
+      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular 
+        web browser today!</p>
+    </article>
+</main>
+<br>
+<p>________________________________________________________________________________________________________________</p>
+<figure>
+    <img src="images/user2.jpg" alt="" style="width:150px">
+    <figcaption>profile</figcaption>
+</figure>
+<hr>
+<p>Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization,
+     blockchain technologies, and token-based economics.</p>
+<hr>
+<ol>
+    <li>Bently</li>
+    <li>Rolls Royce</li>
+    <li>Maserati</li>
+</ol>
+<ul>
+    <li>Mercedes</li>
+    <li>BMW</li>
+    <li>AUDI</li>
+</ul>
+<p>Read That Following Paragraph.</p>
+<pre>
+    Web3 is an idea for a new iteration of the World Wide Web which incorporates
+     concepts such as decentralization,
+     blockchain technologies, and token-based economics.
+</pre>
+<menu>
+    <li><button id="like">Like Our Content</button></li>
+    <li><button id="follow">Follow Our Website</button></li>
+</menu>
+
+<a href="https://www.google.com">GO to GOOGLE!</a>
+<br>
+<br>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<b>This is bold text</b>.
+
+<ul>
+    <li>User <bdi>5 Kg</bdi>: 20 Reps</li>
+    <li>User <bdi>10 Kg</bdi>: 15 Reps</li>
+    <li>User <bdi>30 Kg</bdi>: 10 Reps</li>
+</ul>
+
+<bdo dir="rtl">
+    This text will go right-to-left.
+</bdo>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<ul>
+    <li><data value="21053">FORD RAPTOR</data></li>
+    <li><data value="21054">TOYOTA TUNDRA</data></li>
+    <li><data value="21055">MITSUBISHI PAJERO</data></li>
+</ul>
+
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+<p>We <em>cannot</em> live like this.</p>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<table border="5" height="100px">
+    <!-- <tr bgcolor="grey">
+        <th>NAME</th>
+        <th>ROll No</th>
+        <th>Technology</th>
+    </tr> -->
+    <tr>
+        <td><img src="images/user2.jpg" alt="" height="150px" width="300px"></td>
+        <td><img src="images/user2.jpg" alt="" height="150px" width="400px"></td>
+        <td><img src="images/user2.jpg" alt="" height="150-px" width="300px"></td>
+
+    </tr>
+    <tr>
+        <td rowspan="2"><h3 align="center">Universities Of Faisalabad</h3><ul>
+            <li>National Textile University</li>
+            <li>Fast Chiniot</li>
+            <li>Agriculture University Faisalabad</li>
+        </ul></td>
+        <!-- Second cell od 2nd row -->
+        <td><h5 align="center">Registration Form</h5>
+        <form action="">
+            <label for="">NAME: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text"><br><br>
+            <label for="">Father Name: </label>
+            <input type="text"><br><br>
+            <label for="">Gmail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email"><br><br>
+            <label for="">Session: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="" id="">
+                <option value="">Morning</option>
+                <option value="">Evening</option>
+            </select><br><br>
+            <label for="">Birth-Date: &nbsp;&nbsp;&nbsp;</label>
+            <input type="date"><br><br>
+            <label for="">Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="Password"><br><br>
+            <label for="">Phone NO#: &nbsp;&nbsp;</label>
+            <input type="text"><br><br>
+            <label for="">Documents: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="file"><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  align="left"  type="submit">
+
         </form>
-
-        <label for="ram">Ram Usage:</label>
-        <meter id="ram" value="6" min="0" max="10">6 out of 10</meter><br>
-
-        <label for="rom">Battery Usage:</label>
-        <meter id="rom" value="0.5">50%</meter>
-        <br><br>
-
-        <label for="colors">Choose a Color:</label>
-        <select  name="colors" id="colors">
-        <optgroup label="Primary Colors">
-            <option value="red">Red</option>
-            <option value="yellow">Yellow</option>
-            <option value="blue">Blue</option>
-        </optgroup>
-        <optgroup label="Secondary Colors">
-            <option value="orange">Orange</option>
-            <option value="purple">Purple</option>
-            <option value="green">Green</option>
-        </optgroup>
-        </select>
-        <br><br>
-        <label for="file">Uploading progress:</label>
-        <progress id="file" value="55" max="100"> 55% </progress>
-        <br><br>
-        <label for="villagebythesea">Review of Village By the Sea:</label>
-        <br><br>
-        <textarea id="villagebythesea" name="villagebythesea" rows="4" cols="50">
-            This story is <em>based entirely</em> on fact. Thul is a real village on the western coast of India and all the character in this book are based on people who live in this village; only their names have been altered.
-        </textarea>
-        <br><br>
-        <details>
-            <summary>The village by the Sea</summary>
-            <p>This story is <em>based entirely</em> on fact. Thul is a real village on the western coast of India and all the character in this book are based on people who live in this village; only their names have been altered.</p>
-        </details>
-
-        <dialog open>This is a dialog window</dialog>
-        <br><br>
-
-        <p>I literally <acronym title="Laughing Out Load">LOL</acronym>ed when I got your text.</p> 
-
-        <p>Example of Applet Tag</p>  
-        <applet code="Shapes.class" align="right" height="500" width="750">  
-            <b>Sorry! you need Java to see this</b>  
-        </applet>  
-
-
-        <p>This is a normal text. <big>This is a Large text.</big></p>      
-        <center>Text in Center.</center>
-        <p>This text is <blink>BLINKING</blink></p>
-
-        <h3>List of Fruits</h3>  
-        <dir>  
-            <li>Apple</li>  
-            <li>Orange</li>  
-            <li>Banana</li>  
-        </dir>  
-
-        <p>  
-            <font size="05px" color="Red">Text in Red.</font>  
-        </p>
-
-        <frameset cols="50%,50%">  
-            <frame  src="https://www.google.com/">  
-            <frame  src="https://www.Facebook.com/">     
-        </frameset>  
-
-        <nobr>The Village by the Sea is set in a small village called Thul in Western India (14 kilometres from Bombay) and focuses on a family trying to make ends meet. The main protagonists are Lila, the eldest child who is 13 years old, and her 12-year-old brother Hari. They also have two younger sisters, Bela and Kamal. They live with their mother, who has been chronically ill and is bed-ridden. Their father is an alcoholic, which forces Hari and Lila to manage the family. There is a lot of pressure on them due to the constant demand for meeting their needs. He wasn't earning money but used to take debts from villagers at the toddy shop to buy alcohol. With two younger sisters and a bedridden mother to take care of, life for Lila and Hari is too hard. Hari decides that he has had enough and leaves for Bombay to find work.</nobr>
-        <noembed>This is a noembed Text.</noembed>
-        <noframes>This is a noframes Text.</noframes>
+    </td>
+    <td><img src="images/user2.jpg" alt="" height="300px" width="330px"></td>
+    </tr>
+    <tr>
         
-        <object data="horse.wav">
-            <param name="autoplay" value="true">
-        </object>
+        <td bgcolor="grey"  colspan="2"><h3 align="center">Last date for Apply: 16th August</h3></td>
         
-        <p>The Village by the Sea is set in a <spacer> small village called Thul </spacer> in Western India</p>
-        
-        <h4>Strike tag</h4>  
-        <p>This is a valid paragraph. <strike>This is not a valid paragraph</strike></p>  
-        
-        <h4>tt tag:</h4>  
-        <p>This is default paragraph.<tt>This is teletype paragraph.</tt></p> 
-        
-          
-        <br><br><br><br><br>
-        <footer style="background-color:yellow; text-align: center; padding: 10px;">
-            Footer
-        </footer>
+    
+    </tr>
 
-    </body>
+
+</table>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+
+<q>Build a future where people live in harmony with nature.</q>
+
+<ruby>
+    漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
+</ruby>
+
+<p><s>Only 50 tickets left!</s></p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+<p><small>This is some smaller text.</small></p>
+
+<p>South Asians has <span style="color:brown">brown</span> color.</p>
+
+<strong>This text is important!</strong>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+<p>I have a date on <time datetime="2022-02-14 10:00">Mothers day</time>.</p>
+<p>This is some <u>mispeled</u> text.</p>
+<var>pi</var> value is equal to 3.14.</p>
+<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+<img src="images/user2.jpg" alt="Girl in a jacket" width="500" height="600">
+<object data="horse.wav">
+    <param name="autoplay" value="true">
+</object>
+<p>____________________________________________________________________________________________</p>
+
+<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+<audio controls>
+    <source src="media/audio.mp3" type="audio/ogg">
+    Your browser does not support the audio tag.
+</audio>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<img src="images/user2.jpg" alt="LOGO of NTU University" width="200" height="200">
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+<track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+<br>
+<p>____________________________________________________________________________________________</p>
+<video width="320" height="240" controls>
+    <source src="media/video.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<embed type="image/jpg" src="images/user2.jpg" width="300" height="200">
+<iframe src="https://www.com" title="W3Schools Free Online Web Tutorials"></iframe>
+<object data="images/user2.jpg" width="300" height="200"></object>
+<br>
+<p>____________________________________________________________________________________________</p>
+<br>
+<details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<picture>
+    <img src="images/user2.jpg" alt="Mountains" style="width:auto;">
+</picture>
+
+<source src="horse.ogg" type="audio/ogg">
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+<br>
+<p>____________________________________________________________________________________________</p>
+
+<canvas id="myCanvas">
+    Your browser does not support the canvas tag.
+</canvas>
+<noscript>Your browser does not support JavaScript!</noscript>
+<script>
+    document.getElementById("demo").innerHTML = "Hello!";
+</script>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+<p>Cloth is <del>blue</del> <ins>red</ins>!</p>
+
+<caption>Monthly savings</caption>
+<col span="2" style="background-color:red">
+<colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+</colgroup>
+<table>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+</table>
+<tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+</tfoot>
+<th>Month</th>
+<thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+</thead>
+
+<button type="button">Click Me!</button>
+<datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+</datalist>
+<br>
+<br>
+<br>
+
+<p>_______________________________________________________________________________________</p>
+<br>
+
+<legend>Percentage:</legend>
+<meter id="disk_c" value="5" min="0" max="10">5 out of 10</meter>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+</optgroup>
+=<output name="x" for="a b"></output>
+<progress id="file" value="32" max="100"> 32% </progress>
+<select name="cars" id="cars">
+    <option value="HINO">Volvo</option>
+    <option value="DAEWOO">Saab</option>
+    <option value="MAN">Mercedes</option>
+    <option value="FORD">Audi</option>
+</select>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+<dialog open>You can see our window screen now.</dialog>
+<br><br>
+<p>____________________________________________________________________________________________</p>
+
+<template>
+    <h2>Mountains</h2>
+    <img src="images/user2.jpg" width="214" height="204">
+</template>
+
+<h1 align="centre">END OF PAGE</h1>
+
+
+
+</body>
 </html>
