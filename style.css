@@ -16,7 +16,7 @@ blockquote p::after {
     content: '\201D';
 }
 
-.profile{
+.profile {
     size: 20px 20px 20px 20px;
 }
 
